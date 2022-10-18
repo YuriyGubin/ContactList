@@ -16,19 +16,21 @@ struct Person {
     }
     
     static func getPerson() -> [Person] {
-        let data = DataManager()
-
-        let persons = [Person(
-            name: data.names[Int.random(in: 0..<data.names.count)],
-            surname: data.surnames[Int.random(in: 0..<data.surnames.count)],
-            email: data.emails[Int.random(in: 0..<data.emails.count)],
-            phoneNumber: data.phoneNumbers[Int.random(in: 0..<data.phoneNumbers.count)]
-        )
-        ]
+        let dataManager = DataManager()
+        var persons: [Person] = []
+        
+        for _ in 0..<dataManager.names.count {
+            persons.append(Person(
+                name: dataManager.names[Int.random(in: 0..<dataManager.names.count)],
+                surname: dataManager.surnames[Int.random(in: 0..<dataManager.surnames.count)],
+                email: dataManager.emails[Int.random(in: 0..<dataManager.emails.count)],
+                phoneNumber: dataManager.phoneNumbers[Int.random(in: 0..<dataManager.phoneNumbers.count)]
+            ))
+            
+        }
+        
         return persons
     }
-    
-    
 }
 
 class DataManager {

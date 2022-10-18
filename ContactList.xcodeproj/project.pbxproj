@@ -14,6 +14,7 @@
 		EF67EDDE28FE7157006C8C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF67EDDC28FE7157006C8C93 /* LaunchScreen.storyboard */; };
 		EF67EDE628FE73CF006C8C93 /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */; };
 		EF67EDE828FE73FE006C8C93 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67EDE728FE73FE006C8C93 /* Person.swift */; };
+		EF67EDEA28FEC27F006C8C93 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67EDE928FEC27F006C8C93 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF67EDDF28FE7157006C8C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		EF67EDE728FE73FE006C8C93 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EF67EDE928FEC27F006C8C93 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF67EDD728FE7155006C8C93 /* Main.storyboard */,
 				EF67EDE728FE73FE006C8C93 /* Person.swift */,
 				EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */,
+				EF67EDE928FEC27F006C8C93 /* DetailsViewController.swift */,
 				EF67EDDA28FE7157006C8C93 /* Assets.xcassets */,
 				EF67EDDC28FE7157006C8C93 /* LaunchScreen.storyboard */,
 				EF67EDDF28FE7157006C8C93 /* Info.plist */,
@@ -145,6 +148,7 @@
 				EF67EDD228FE7155006C8C93 /* AppDelegate.swift in Sources */,
 				EF67EDE828FE73FE006C8C93 /* Person.swift in Sources */,
 				EF67EDD428FE7155006C8C93 /* SceneDelegate.swift in Sources */,
+				EF67EDEA28FEC27F006C8C93 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
