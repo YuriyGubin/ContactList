@@ -2,7 +2,7 @@
 //  ExtendedListViewController.swift
 //  ContactList
 //
-//  Created by Yuriy on 18.10.2022.
+//  Created by Yuriy Gubin on 18.10.2022.
 //
 
 import UIKit
