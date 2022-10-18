@@ -9,7 +9,7 @@ import UIKit
 
 class ExtendedListViewController: UITableViewController {
 
-    var persons: [Person]!
+    var persons: [Person] = []
 
     // MARK: - Table view data source
 
