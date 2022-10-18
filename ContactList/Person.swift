@@ -2,7 +2,7 @@
 //  Person.swift
 //  ContactList
 //
-//  Created by Юрий Губин on 18.10.2022.
+//  Created by Yuriy Gubin on 18.10.2022.
 //
 
 struct Person {
@@ -33,9 +33,7 @@ struct Person {
                 email: shuffledEmails[data],
                 phoneNumber: shuffledPhoneNumbers[data]
             ))
-            
         }
-        
         return persons
     }
 }
@@ -56,16 +54,16 @@ class DataManager {
     ]
     
     let surnames = [
-    "Petrova",
-    "Kirsanova",
-    "Tenyunina",
-    "Ivanova",
-    "Sidorova",
-    "Smetanina",
-    "Ovsova",
-    "Fedorova",
-    "Kalinina",
-    "Vaseneva"
+        "Petrova",
+        "Kirsanova",
+        "Tenyunina",
+        "Ivanova",
+        "Sidorova",
+        "Smetanina",
+        "Ovsova",
+        "Fedorova",
+        "Kalinina",
+        "Vaseneva"
     ]
     
     let emails = [
@@ -82,15 +80,15 @@ class DataManager {
     ]
     
     let phoneNumbers = [
-    "+79256984128",
-    "+79586243569",
-    "+78965412354",
-    "+18569874125",
-    "+14587896521",
-    "+78546985698",
-    "+78456215489",
-    "+78362145487",
-    "+78523652497",
-    "+73658741020"
+        "+79256984128",
+        "+79586243569",
+        "+78965412354",
+        "+18569874125",
+        "+14587896521",
+        "+78546985698",
+        "+78456215489",
+        "+78362145487",
+        "+78523652497",
+        "+73658741020"
     ]
 }
