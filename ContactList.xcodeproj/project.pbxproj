@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A7E79A328FF01B6008857EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E79A228FF01B6008857EA /* DataManager.swift */; };
+		6A7E79A528FF17BE008857EA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7E79A428FF17BE008857EA /* TabBarViewController.swift */; };
 		EF67EDD228FE7155006C8C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67EDD128FE7155006C8C93 /* AppDelegate.swift */; };
 		EF67EDD428FE7155006C8C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF67EDD328FE7155006C8C93 /* SceneDelegate.swift */; };
 		EF67EDD928FE7155006C8C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF67EDD728FE7155006C8C93 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A7E79A228FF01B6008857EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6A7E79A428FF17BE008857EA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		EF67EDCE28FE7155006C8C93 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF67EDD128FE7155006C8C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF67EDD328FE7155006C8C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,9 +67,11 @@
 				EF67EDD128FE7155006C8C93 /* AppDelegate.swift */,
 				EF67EDD328FE7155006C8C93 /* SceneDelegate.swift */,
 				EF67EDD728FE7155006C8C93 /* Main.storyboard */,
+				6A7E79A428FF17BE008857EA /* TabBarViewController.swift */,
 				EF67EDE728FE73FE006C8C93 /* Person.swift */,
 				EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */,
 				EF67EDE928FEC27F006C8C93 /* PersonDetailsViewController.swift */,
+				6A7E79A228FF01B6008857EA /* DataManager.swift */,
 				EF67EDDA28FE7157006C8C93 /* Assets.xcassets */,
 				EF67EDDC28FE7157006C8C93 /* LaunchScreen.storyboard */,
 				EF67EDDF28FE7157006C8C93 /* Info.plist */,
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF67EDE628FE73CF006C8C93 /* PersonListViewController.swift in Sources */,
+				6A7E79A328FF01B6008857EA /* DataManager.swift in Sources */,
 				EF67EDD228FE7155006C8C93 /* AppDelegate.swift in Sources */,
 				EF67EDE828FE73FE006C8C93 /* Person.swift in Sources */,
+				6A7E79A528FF17BE008857EA /* TabBarViewController.swift in Sources */,
 				EF67EDD428FE7155006C8C93 /* SceneDelegate.swift in Sources */,
 				EF67EDEA28FEC27F006C8C93 /* PersonDetailsViewController.swift in Sources */,
 			);

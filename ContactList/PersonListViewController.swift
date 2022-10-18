@@ -9,15 +9,9 @@ import UIKit
 
 class PersonListViewController: UITableViewController {
     
-    private let persons = Person.getPerson()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    private let persons = Person.getPersons()
     
     // MARK: - Table view data source
-    
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
@@ -26,6 +20,7 @@ class PersonListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let person = persons[indexPath.row]
+        
         content.text = person.fullname
         cell.contentConfiguration = content
         
