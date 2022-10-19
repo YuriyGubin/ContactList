@@ -29,6 +29,8 @@ class TabBarViewController: UITabBarController {
         controllers.forEach { controller in
             if let extendVC = controller as? ExtendedListViewController {
                 extendVC.persons = persons
+            } else if let listVC = controller as? PersonListViewController {
+                listVC.persons = persons
             }
         }
     }

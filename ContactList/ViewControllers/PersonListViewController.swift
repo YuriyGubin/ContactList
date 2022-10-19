@@ -9,7 +9,7 @@ import UIKit
 
 class PersonListViewController: UITableViewController {
     
-    private let persons = Person.getPersons()
+    var persons: [Person] = []
     
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

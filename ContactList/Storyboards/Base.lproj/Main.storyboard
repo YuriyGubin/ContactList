@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="59j-pI-jHw" id="3Bx-lK-jYB"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" image="mail" catalog="system" id="Obr-kC-6D2"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.circle.fill" catalog="system" id="Obr-kC-6D2"/>
                     <navigationItem key="navigationItem" id="yWf-dd-zhY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uU6-Gm-ccg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -89,7 +89,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xK5-B3-jOa">
-                                <rect key="frame" x="16" y="121" width="288" height="65"/>
+                                <rect key="frame" x="16" y="131" width="288" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGI-az-6cA">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="22.5"/>
@@ -109,9 +109,9 @@
                         <viewLayoutGuide key="safeArea" id="jRR-uP-fir"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xK5-B3-jOa" firstAttribute="top" secondItem="jRR-uP-fir" secondAttribute="top" constant="30" id="8Iy-vn-PXe"/>
-                            <constraint firstItem="jRR-uP-fir" firstAttribute="trailing" secondItem="xK5-B3-jOa" secondAttribute="trailing" constant="16" id="8U5-eP-2a1"/>
-                            <constraint firstItem="xK5-B3-jOa" firstAttribute="leading" secondItem="jRR-uP-fir" secondAttribute="leading" constant="16" id="ief-Ae-fQN"/>
+                            <constraint firstItem="xK5-B3-jOa" firstAttribute="leading" secondItem="jRR-uP-fir" secondAttribute="leading" constant="16" id="K5h-Ai-ePv"/>
+                            <constraint firstItem="jRR-uP-fir" firstAttribute="trailing" secondItem="xK5-B3-jOa" secondAttribute="trailing" constant="16" id="a4r-BC-hJJ"/>
+                            <constraint firstItem="xK5-B3-jOa" firstAttribute="top" secondItem="jRR-uP-fir" secondAttribute="top" constant="40" id="zG6-4a-AxI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fer-ry-7iW"/>
@@ -168,7 +168,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mail" catalog="system" width="128" height="93"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
