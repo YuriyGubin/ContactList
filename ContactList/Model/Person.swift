@@ -17,16 +17,16 @@ struct Person {
     
     static func getPersons() -> [Person] {
         
-        let dataManager = DataManager()
+        let dataStore = DataStore()
         
-        let shuffledNames = dataManager.names.shuffled()
-        let shuffledSurnames = dataManager.surnames.shuffled()
-        let shuffledEmails = dataManager.emails.shuffled()
-        let shuffledPhoneNumbers = dataManager.phoneNumbers.shuffled()
+        let shuffledNames = dataStore.names.shuffled()
+        let shuffledSurnames = dataStore.surnames.shuffled()
+        let shuffledEmails = dataStore.emails.shuffled()
+        let shuffledPhoneNumbers = dataStore.phoneNumbers.shuffled()
         
         var persons: [Person] = []
         
-        for data in 0..<dataManager.names.count {
+        for data in 0..<dataStore.names.count {
             persons.append(Person(
                 name: shuffledNames[data],
                 surname: shuffledSurnames[data],

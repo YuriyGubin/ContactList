@@ -24,7 +24,7 @@ class ExtendedListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "extended", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let person = persons[indexPath.row]
+        let person = persons[indexPath.section]
         
         if indexPath.row == 0 {
             content.text = person.phoneNumber
