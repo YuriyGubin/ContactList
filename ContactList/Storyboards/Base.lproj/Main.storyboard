@@ -44,7 +44,7 @@
                             <outlet property="delegate" destination="59j-pI-jHw" id="3Bx-lK-jYB"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" image="person.circle.fill" catalog="system" id="Obr-kC-6D2"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="mail" catalog="system" id="Obr-kC-6D2"/>
                     <navigationItem key="navigationItem" id="yWf-dd-zhY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uU6-Gm-ccg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -153,6 +153,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Persons List" id="YGa-4f-0za"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kNO-Th-9HR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -167,6 +168,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="mail" catalog="system" width="128" height="93"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

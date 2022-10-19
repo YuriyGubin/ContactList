@@ -47,6 +47,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF21A2B628FFAC03007F0066 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EDD128FE7155006C8C93 /* AppDelegate.swift */,
+				EF67EDD328FE7155006C8C93 /* SceneDelegate.swift */,
+				EF67EDDF28FE7157006C8C93 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF21A2B728FFAC2C007F0066 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E79A428FF17BE008857EA /* TabBarViewController.swift */,
+				EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */,
+				EF67EDE928FEC27F006C8C93 /* PersonDetailsViewController.swift */,
+				6A7E79A628FF1BBB008857EA /* ExtendedListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EF21A2B828FFAC3A007F0066 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EDE728FE73FE006C8C93 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF21A2B928FFACBE007F0066 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E79A228FF01B6008857EA /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF21A2BA28FFACCB007F0066 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF67EDD728FE7155006C8C93 /* Main.storyboard */,
+				EF67EDDC28FE7157006C8C93 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		EF67EDC528FE7155006C8C93 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +112,12 @@
 		EF67EDD028FE7155006C8C93 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				EF67EDD128FE7155006C8C93 /* AppDelegate.swift */,
-				EF67EDD328FE7155006C8C93 /* SceneDelegate.swift */,
-				EF67EDD728FE7155006C8C93 /* Main.storyboard */,
-				6A7E79A628FF1BBB008857EA /* ExtendedListViewController.swift */,
-				6A7E79A428FF17BE008857EA /* TabBarViewController.swift */,
-				EF67EDE728FE73FE006C8C93 /* Person.swift */,
-				EF67EDE528FE73CF006C8C93 /* PersonListViewController.swift */,
-				EF67EDE928FEC27F006C8C93 /* PersonDetailsViewController.swift */,
-				6A7E79A228FF01B6008857EA /* DataManager.swift */,
+				EF21A2B628FFAC03007F0066 /* App */,
+				EF21A2B928FFACBE007F0066 /* Services */,
+				EF21A2B828FFAC3A007F0066 /* Model */,
+				EF21A2B728FFAC2C007F0066 /* ViewControllers */,
+				EF21A2BA28FFACCB007F0066 /* Storyboards */,
 				EF67EDDA28FE7157006C8C93 /* Assets.xcassets */,
-				EF67EDDC28FE7157006C8C93 /* LaunchScreen.storyboard */,
-				EF67EDDF28FE7157006C8C93 /* Info.plist */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -309,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 789AT898J7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +381,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 789AT898J7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
