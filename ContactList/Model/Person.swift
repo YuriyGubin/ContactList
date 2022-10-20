@@ -10,6 +10,7 @@ struct Person {
     let surname: String
     let email: String
     let phoneNumber: String
+    let permanentPerson = "Nataly Portman"
     
     var fullname: String {
         "\(name) \(surname)"
