@@ -8,6 +8,7 @@
 class DataStore {
     
     let names = [
+        "Nataly",
         "Irina",
         "Ekaterina",
         "Vera",
@@ -21,6 +22,7 @@ class DataStore {
     ]
     
     let surnames = [
+        "Portman",
         "Petrova",
         "Kirsanova",
         "Tenyunina",
@@ -34,6 +36,7 @@ class DataStore {
     ]
     
     let emails = [
+        "dream@gmail.com",
         "bigeyes@gmail.com",
         "nicesmile@gmail.com",
         "kindsoul@gmail.com",
@@ -47,6 +50,7 @@ class DataStore {
     ]
     
     let phoneNumbers = [
+        "+79228227227",
         "+79256984128",
         "+79586243569",
         "+78965412354",

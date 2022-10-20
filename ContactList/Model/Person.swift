@@ -10,7 +10,6 @@ struct Person {
     let surname: String
     let email: String
     let phoneNumber: String
-    let permanentPerson = "Nataly Portman"
     
     var fullname: String {
         "\(name) \(surname)"
@@ -20,14 +19,21 @@ struct Person {
         
         let dataStore = DataStore()
         
+        var persons: [Person] = []
+        
+        persons.append(Person(
+            name: dataStore.names[0],
+            surname: dataStore.surnames[0],
+            email: dataStore.emails[0],
+            phoneNumber: dataStore.phoneNumbers[0]
+        ))
+        
         let shuffledNames = dataStore.names.shuffled()
         let shuffledSurnames = dataStore.surnames.shuffled()
         let shuffledEmails = dataStore.emails.shuffled()
         let shuffledPhoneNumbers = dataStore.phoneNumbers.shuffled()
         
-        var persons: [Person] = []
-        
-        for data in 0..<dataStore.names.count {
+        for data in 1..<dataStore.names.count {
             persons.append(Person(
                 name: shuffledNames[data],
                 surname: shuffledSurnames[data],
@@ -35,7 +41,7 @@ struct Person {
                 phoneNumber: shuffledPhoneNumbers[data]
             ))
         }
-        return persons
+        return persons.shuffled()
     }
 }
 
