@@ -19,13 +19,18 @@ struct Person {
         
         let dataStore = DataStore()
         
+        let hardName = dataStore.names.remove(at: 0)
+        let hardSurname = dataStore.surnames.remove(at: 0)
+        let hardEmail = dataStore.emails.remove(at: 0)
+        let hardPhone = dataStore.phoneNumbers.remove(at: 0)
+        
         var persons: [Person] = []
         
         persons.append(Person(
-            name: dataStore.names[0],
-            surname: dataStore.surnames[0],
-            email: dataStore.emails[0],
-            phoneNumber: dataStore.phoneNumbers[0]
+            name: hardName,
+            surname: hardSurname,
+            email: hardEmail,
+            phoneNumber: hardPhone
         ))
         
         let shuffledNames = dataStore.names.shuffled()
@@ -33,7 +38,7 @@ struct Person {
         let shuffledEmails = dataStore.emails.shuffled()
         let shuffledPhoneNumbers = dataStore.phoneNumbers.shuffled()
         
-        for data in 1..<dataStore.names.count {
+        for data in 0..<dataStore.names.count {
             persons.append(Person(
                 name: shuffledNames[data],
                 surname: shuffledSurnames[data],
