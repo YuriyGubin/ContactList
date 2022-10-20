@@ -38,12 +38,12 @@ struct Person {
         let shuffledEmails = dataStore.emails.shuffled()
         let shuffledPhoneNumbers = dataStore.phoneNumbers.shuffled()
         
-        for data in 0..<dataStore.names.count {
+        for index in 0..<dataStore.names.count {
             persons.append(Person(
-                name: shuffledNames[data],
-                surname: shuffledSurnames[data],
-                email: shuffledEmails[data],
-                phoneNumber: shuffledPhoneNumbers[data]
+                name: shuffledNames[index],
+                surname: shuffledSurnames[index],
+                email: shuffledEmails[index],
+                phoneNumber: shuffledPhoneNumbers[index]
             ))
         }
         return persons.shuffled()
