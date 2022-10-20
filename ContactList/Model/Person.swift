@@ -38,7 +38,14 @@ struct Person {
         let shuffledEmails = dataStore.emails.shuffled()
         let shuffledPhoneNumbers = dataStore.phoneNumbers.shuffled()
         
-        for index in 0..<dataStore.names.count {
+        let count = min(
+            shuffledNames.count,
+            shuffledSurnames.count,
+            shuffledEmails.count,
+            shuffledPhoneNumbers.count
+        )
+        
+        for index in 0..<count {
             persons.append(Person(
                 name: shuffledNames[index],
                 surname: shuffledSurnames[index],
