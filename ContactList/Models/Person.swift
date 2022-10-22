@@ -17,7 +17,7 @@ struct Person {
     
     static func getPersons() -> [Person] {
         
-        let dataStore = DataStore()
+        let dataStore = DataStore.shared
         
         let staticName = dataStore.names.remove(at: 0)
         let staticSurname = dataStore.surnames.remove(at: 0)
