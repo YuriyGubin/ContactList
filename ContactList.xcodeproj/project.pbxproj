@@ -68,12 +68,12 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		EF21A2B828FFAC3A007F0066 /* Model */ = {
+		EF21A2B828FFAC3A007F0066 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				EF67EDE728FE73FE006C8C93 /* Person.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EF21A2B928FFACBE007F0066 /* Services */ = {
@@ -114,7 +114,7 @@
 			children = (
 				EF21A2B628FFAC03007F0066 /* App */,
 				EF21A2B928FFACBE007F0066 /* Services */,
-				EF21A2B828FFAC3A007F0066 /* Model */,
+				EF21A2B828FFAC3A007F0066 /* Models */,
 				EF21A2B728FFAC2C007F0066 /* ViewControllers */,
 				EF21A2BA28FFACCB007F0066 /* Storyboards */,
 				EF67EDDA28FE7157006C8C93 /* Assets.xcassets */,
